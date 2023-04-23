@@ -1,0 +1,129 @@
+body{
+    font-family: 'Nunito',sans-serif;
+}
+a
+{
+    color:#63ba16;
+}
+button{
+    color:#26ae61;
+    font-family: 'Nunito', sans-serif;
+}
+
+.banner
+{
+    position:relative;
+    z-index: -1;
+}
+
+.banner-overlay{
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom: 0;
+    background-color: #26ae61;
+    z-index: -1;
+}
+.registration-banner .banner-overlay{
+    background-color: #26ae61;
+}
+.login-banner .banner-overlay{
+    background-color: #26ae61;
+}
+.profile-update-banner
+{
+    background-color: #26ae6111;
+}
+.banner h2{
+    font-family: 'Nunito',sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color:white;
+}
+.banner p{
+    color:white;
+    font-size:1.1rem;
+}
+.form-title
+{
+    font-size: 1.8rem;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 700;
+}
+.profile-picture-thumbnail
+{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    overflow: hidden;
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card-container
+{
+    background-color: #26ae6122;
+    border-radius: 10px;
+    padding:2rem;  
+    width: 100%; 
+}
+.card-container .card-title
+{
+    font-weight: 700;
+    font-family: 'Nunito',sans-serif;
+    letter-spacing: -0.025em;
+    font-size:2rem;
+    text-transform: capitalize;
+}
+.card-container .card-subtitle
+{
+    font-weight: 600;
+    font-family: 'Nunito',sans-serif;
+    letter-spacing: -0.025em;
+    font-size:1.25rem;
+    color:#555; 
+}
+.card-container .card-paragraph
+{
+    font-weight: 500;
+    font-family: 'Nunito',sans-serif;
+    font-size:0.9rem;
+    color:#333; 
+    text-align: center;
+}
+.card-subheading
+{
+    align-self: flex-start;
+    font-weight: 700;
+    font-family: 'Nunito',sans-serif;
+    letter-spacing: -0.025em;
+    font-size:1.5rem;
+}
+.green-badge
+{
+    background: #26ae61;
+  font-size: 14px;
+  color:#fff;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 5px 10px;
+  margin: 3px 0;
+  border-radius: 6px;
+  display: inline-block;
+}
+.card-info-heading
+{
+    text-transform: uppercase;
+    color:#777;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+}
+.card-info-content
+{
+    color:#222;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.025em;
+}
